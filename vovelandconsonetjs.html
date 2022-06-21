@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+var name;
+name=prompt("Enter your number");
+
+var i=0;
+var c=0;
+var v=0;
+while(i<=name.length)
+{
+  if(name[i]=='a' || name[i]=='e' || name[i]=='i' || name[i] =='o' || name[i] =='u')
+  {
+    v++;
+  }
+  else{
+    c++;
+  }
+  i++;
+}
+document.write("vowel"+v);
+document.write("consonent"+c);
+
+</script>
+</head>
+<body>
+</body>
+</html>

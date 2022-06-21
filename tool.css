@@ -1,0 +1,27 @@
+#d1
+{
+	position=relative;
+	top:120px;
+
+
+
+}
+#p1
+{
+	background-color:red;
+}
+#d1:hover #sp1
+{
+	visibility:visible;
+}
+#sp1
+{
+	position:absolute;
+    top:5px;
+    left:40px;
+    display:block;
+    background-color:black;
+    color:white;
+    visibility:hidden;
+    z-index: 1;
+}
